@@ -1,9 +1,9 @@
 const cacheName = "KTU ESA-RAFES Karpis-0.1";
 const contentToCache = [
-    "Build/WEB.loader.js",
-    "Build/WEB.framework.js",
-    "Build/WEB.data",
-    "Build/WEB.wasm",
+    "Build/WEB_2.loader.js",
+    "Build/WEB_2.framework.js",
+    "Build/WEB_2.data",
+    "Build/WEB_2.wasm",
     "TemplateData/style.css"
 
 ];
