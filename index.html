@@ -9,8 +9,8 @@
     <link rel="manifest" href="manifest.webmanifest">
   </head>
   <body>
-    <div id="unity-container" style="position: absolute; width: 100%; height: 100%">
-      <canvas id="unity-canvas" width={{{ 1080 }}} height={{{ 1920 }}} style="width: 100%; height: 100%"></canvas></div>
+    <div id="unity-container">
+      <canvas id="unity-canvas" width=1080 height=1920 tabindex="-1"></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
@@ -57,11 +57,11 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/WEB.loader.js";
+      var loaderUrl = buildUrl + "/WEB_2.loader.js";
       var config = {
-        dataUrl: buildUrl + "/WEB.data",
-        frameworkUrl: buildUrl + "/WEB.framework.js",
-        codeUrl: buildUrl + "/WEB.wasm",
+        dataUrl: buildUrl + "/WEB_2.data",
+        frameworkUrl: buildUrl + "/WEB_2.framework.js",
+        codeUrl: buildUrl + "/WEB_2.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "KTU ESA",
         productName: "RAFES Karpis",
